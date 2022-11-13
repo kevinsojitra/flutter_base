@@ -1,1 +1,1 @@
-Flutter Package # Base for Easy Programming
+Flutter Package for Easy Programming
