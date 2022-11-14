@@ -8,10 +8,10 @@ import 'package:synchronized/synchronized.dart';
 
 import '../widgets/custom_dialog.dart';
 
-part '../widgets/base.dart';
+part '../widgets/easy.dart';
 
-final LinkedHashMap<_BaseState, BuildContext> _contextMap =
-    LinkedHashMap<_BaseState, BuildContext>();
+final LinkedHashMap<_EasyState, BuildContext> _contextMap =
+    LinkedHashMap<_EasyState, BuildContext>();
 
 typedef BuildContextPredicate = BuildContext Function(
   Iterable<BuildContext> list,

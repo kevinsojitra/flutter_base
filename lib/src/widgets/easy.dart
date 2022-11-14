@@ -1,14 +1,14 @@
 part of '../core/show.dart';
 
-class Base extends StatefulWidget {
-  const Base({Key? key, required this.child}) : super(key: key);
+class Easy extends StatefulWidget {
+  const Easy({Key? key, required this.child}) : super(key: key);
   final Widget child;
 
   @override
-  State<Base> createState() => _BaseState();
+  State<Easy> createState() => _EasyState();
 }
 
-class _BaseState extends State<Base> {
+class _EasyState extends State<Easy> {
   @override
   void dispose() {
     _contextMap.remove(this);

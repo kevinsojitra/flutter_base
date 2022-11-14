@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_base/flutter_base.dart';
+import 'package:flutter_base/easy_flutter.dart';
 import 'home.dart';
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Base(child: Home()),
+      home: const Easy(child: Home()),
     );
   }
 }

@@ -1,7 +1,6 @@
-name: flutter_base
-description: A new Flutter package project.
+name: easy_flutter
+description: A new Flutter package For Easy Programming.
 version: 0.0.1
-publish_to: thebharatapps.com
 homepage: https://github.com/kevinsojitra/flutter_base
 
 environment:
