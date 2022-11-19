@@ -10,6 +10,7 @@ import '../widgets/custom_dialog.dart';
 
 part '../widgets/easy.dart';
 
+
 final LinkedHashMap<_EasyState, BuildContext> _contextMap =
     LinkedHashMap<_EasyState, BuildContext>();
 
@@ -163,7 +164,7 @@ showSKProgressDialog({
       transitionDuration: const Duration(milliseconds: 100),
     ).then(
       (dismissed) {
-        isProgressDismissed = dismissed!;
+        isProgressDismissed =true;
       },
     );
   }
@@ -193,14 +194,14 @@ void _throwIfNoContext(Iterable<BuildContext> contexts, String methodName) {
     return;
   }
   final List<DiagnosticsNode> information = <DiagnosticsNode>[
-    ErrorSummary('No Base widget found.'),
+    ErrorSummary('No Easy widget found.'),
     ErrorDescription(
-      '$methodName requires an Base widget ancestor '
+      '$methodName requires an Easy widget ancestor '
       'for correct operation.',
     ),
     ErrorHint(
-      'The most common way to add an Base to an application '
-      'is to wrap a Base upon a WidgetsApp(MaterialApp/CupertinoApp).',
+      'The most common way to add an Easy to an application '
+      'is to wrap a Easy upon a WidgetsApp(MaterialApp/CupertinoApp).',
     ),
   ];
   throw FlutterError.fromParts(information);

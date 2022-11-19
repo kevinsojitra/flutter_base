@@ -1,6 +1,6 @@
+import 'package:easy_flutter/easy_flutter.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_base/easy_flutter.dart';
 import 'home.dart';
 void main() {
   runApp(const MyApp());

@@ -1,6 +1,6 @@
 import 'package:example/nested.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base/easy_flutter.dart';
+import 'package:easy_flutter/easy_flutter.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
